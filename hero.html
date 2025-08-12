@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide Touristique - Hero Section</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="relative h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80');">
+    <!-- Overlay sombre -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <!-- Contenu centré -->
+    <div class="relative z-10 flex flex-col justify-center items-center text-center h-full px-4">
+      <h1 class="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
+        Découvrez Madagascar avec un guide expert
+      </h1>
+      <p class="mt-4 text-lg md:text-xl text-gray-200 max-w-2xl">
+        Visites personnalisées, expériences uniques, souvenirs inoubliables.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-4">
+        <a href="#contact" class="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-400 transition">
+          Me Contacter
+        </a>
+        <a href="#destinations" class="px-6 py-3 bg-white text-gray-800 font-semibold rounded-lg shadow hover:bg-gray-200 transition">
+          Voir les Destinations
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Section Présentation -->
+<section id="presentation" class="py-16 bg-gray-50">
+ <div class="container mx-auto px-6 md:px-12 lg:px-20">
+   <div class="grid md:grid-cols-2 gap-12 items-center">
+     
+     <!-- Image du guide -->
+     <div class="flex justify-center">
+       <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80" 
+            alt="Photo du guide touristique"
+            class="rounded-2xl shadow-lg w-full md:w-4/5 object-cover">
+     </div>
+     
+     <!-- Texte de présentation -->
+     <div>
+       <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+         Bonjour, je suis <span class="text-yellow-500">Jean Rakoto</span>
+       </h2>
+       <p class="text-lg text-gray-600 mb-4">
+         Guide touristique professionnel depuis plus de <strong>10 ans</strong>, je vous fais découvrir Madagascar
+         à travers des circuits uniques, adaptés à vos envies et à votre rythme.
+       </p>
+       <p class="text-lg text-gray-600 mb-4">
+         Mon objectif : vous offrir des expériences authentiques, vous immerger dans la culture locale et vous faire vivre des moments inoubliables.
+       </p>
+       <ul class="space-y-3 text-gray-700">
+         <li>✅ Circuits personnalisés</li>
+         <li>✅ Parfaite connaissance des sites touristiques</li>
+         <li>✅ Assistance 24h/24 pendant le voyage</li>
+       </ul>
+       <a href="#contact" 
+          class="mt-6 inline-block px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-400 transition">
+         Réserver une visite
+       </a>
+     </div>
+
+   </div>
+ </div>
+</section>
+<!-- Section Destinations -->
+<section id="destinations" class="py-16 bg-white">
+ <div class="container mx-auto px-6 md:px-12 lg:px-20">
+   
+   <!-- Titre -->
+   <div class="text-center mb-12">
+     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+       Destinations <span class="text-yellow-500">Proposées</span>
+     </h2>
+     <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+       Découvrez les plus beaux endroits de Madagascar à travers des circuits adaptés à vos envies.
+     </p>
+   </div>
+
+   <!-- Grille des destinations -->
+   <div class="grid gap-8 md:grid-cols-3">
+     
+     <!-- Carte Destination 1 -->
+     <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+       <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" 
+            alt="Baobabs Madagascar" 
+            class="w-full h-56 object-cover">
+       <div class="p-6">
+         <h3 class="text-xl font-bold text-gray-800">Allée des Baobabs</h3>
+         <p class="mt-2 text-gray-600">
+           Un lieu emblématique pour admirer les majestueux baobabs au coucher du soleil.
+         </p>
+         <div class="mt-4 flex justify-between items-center">
+           <span class="text-yellow-500 font-bold text-lg">À partir de 50€</span>
+           <a href="#contact" class="px-4 py-2 bg-yellow-500 text-black rounded-lg font-semibold hover:bg-yellow-400 transition">Réserver</a>
+         </div>
+       </div>
+     </div>
+
+     <!-- Carte Destination 2 -->
+     <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+       <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80" 
+            alt="Plage Nosy Be" 
+            class="w-full h-56 object-cover">
+       <div class="p-6">
+         <h3 class="text-xl font-bold text-gray-800">Nosy Be</h3>
+         <p class="mt-2 text-gray-600">
+           Plages paradisiaques, eaux turquoise et activités nautiques inoubliables.
+         </p>
+         <div class="mt-4 flex justify-between items-center">
+           <span class="text-yellow-500 font-bold text-lg">À partir de 80€</span>
+           <a href="#contact" class="px-4 py-2 bg-yellow-500 text-black rounded-lg font-semibold hover:bg-yellow-400 transition">Réserver</a>
+         </div>
+       </div>
+     </div>
+
+     <!-- Carte Destination 3 -->
+     <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+       <img src="https://images.unsplash.com/photo-1569349272934-bf6d8a7d2e0f?auto=format&fit=crop&w=800&q=80" 
+            alt="Parc National Isalo" 
+            class="w-full h-56 object-cover">
+       <div class="p-6">
+         <h3 class="text-xl font-bold text-gray-800">Parc National de l'Isalo</h3>
+         <p class="mt-2 text-gray-600">
+           Paysages spectaculaires, canyons et piscines naturelles au cœur de Madagascar.
+         </p>
+         <div class="mt-4 flex justify-between items-center">
+           <span class="text-yellow-500 font-bold text-lg">À partir de 70€</span>
+           <a href="#contact" class="px-4 py-2 bg-yellow-500 text-black rounded-lg font-semibold hover:bg-yellow-400 transition">Réserver</a>
+         </div>
+       </div>
+     </div>
+
+   </div>
+ </div>
+</section>
+<section id="avis" class="py-16 bg-gray-50">
+ <div class="container mx-auto px-6 md:px-12 lg:px-20">
+   
+   <!-- Titre -->
+   <div class="text-center mb-12">
+     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+       Laissez votre <span class="text-yellow-500">avis</span>
+     </h2>
+     <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+       Partagez votre expérience avec notre guide touristique.
+     </p>
+   </div>
+
+   <!-- Liste des avis -->
+   <div id="avis-container" class="grid gap-8 md:grid-cols-3"></div>
+
+   <!-- Formulaire -->
+   <div class="mt-12 bg-white rounded-xl shadow-lg p-6 max-w-lg mx-auto">
+     <h3 class="text-xl font-semibold mb-4">Donnez votre avis</h3>
+     <form id="avis-form" class="space-y-4">
+       <input type="text" id="nom" placeholder="Votre nom" class="w-full border rounded-lg p-3" required>
+       <textarea id="message" placeholder="Votre avis" class="w-full border rounded-lg p-3" required></textarea>
+       <select id="note" class="w-full border rounded-lg p-3" required>
+         <option value="">Note</option>
+         <option value="5">★★★★★</option>
+         <option value="4">★★★★☆</option>
+         <option value="3">★★★☆☆</option>
+         <option value="2">★★☆☆☆</option>
+         <option value="1">★☆☆☆☆</option>
+       </select>
+       <button class="bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition w-full">
+         Envoyer
+       </button>
+     </form>
+   </div>
+ </div>
+</section>
+
+<script>
+ const avisContainer = document.getElementById("avis-container");
+ const avisForm = document.getElementById("avis-form");
+
+ // Charger les avis du localStorage
+ let avisList = JSON.parse(localStorage.getItem("avisList")) || [];
+ afficherAvis();
+
+ avisForm.addEventListener("submit", e => {
+   e.preventDefault();
+
+   const nom = document.getElementById("nom").value;
+   const message = document.getElementById("message").value;
+   const note = parseInt(document.getElementById("note").value);
+
+   const avis = { nom, message, note };
+   avisList.push(avis);
+
+   // Sauvegarder dans localStorage
+   localStorage.setItem("avisList", JSON.stringify(avisList));
+
+   // Réafficher
+   afficherAvis();
+
+   // Réinitialiser formulaire
+   avisForm.reset();
+ });
+
+ function afficherAvis() {
+   avisContainer.innerHTML = "";
+   avisList.forEach(avis => {
+     avisContainer.innerHTML += `
+       <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition">
+         <h3 class="text-lg font-semibold text-gray-800">${avis.nom}</h3>
+         <div class="flex justify-center text-yellow-500 mb-3">
+           ${"★".repeat(avis.note)}${"☆".repeat(5 - avis.note)}
+         </div>
+         <p class="text-gray-600">${avis.message}</p>
+       </div>
+     `;
+   });
+ }
+</script>
+<!-- Section Contact / Réservation -->
+<section id="contact" class="py-16 bg-white">
+ <div class="container mx-auto px-6 md:px-12 lg:px-20">
+   
+   <!-- Titre -->
+   <div class="text-center mb-12">
+     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+       Contact & <span class="text-yellow-500">Réservation</span>
+     </h2>
+     <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+       Remplissez le formulaire ci-dessous pour réserver votre visite ou poser vos questions.
+     </p>
+   </div>
+
+   <div class="grid md:grid-cols-2 gap-12">
+     
+     <!-- Infos de contact -->
+     <div class="space-y-6">
+       <h3 class="text-2xl font-semibold text-gray-800">Informations</h3>
+       <p class="text-gray-600">
+         📍 Antananarivo, Madagascar  
+         📞 +261 34 12 345 67  
+         📧 contact@guide-madagascar.com
+       </p>
+       <p class="text-gray-600">
+         Disponible 7j/7, réponse rapide garantie.
+       </p>
+     </div>
+
+     <!-- Formulaire -->
+     <div class="bg-gray-50 rounded-xl shadow-lg p-6">
+       <form action="https://formspree.io/f/{votre_id_formspree}" method="POST" class="space-y-4">
+         <input type="text" name="nom" placeholder="Votre nom" required
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+         
+         <input type="email" name="email" placeholder="Votre e-mail" required
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+         
+         <input type="text" name="sujet" placeholder="Sujet" required
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+         
+         <textarea name="message" placeholder="Votre message" required rows="5"
+                   class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+         
+         <button type="submit"
+                 class="bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition w-full">
+           Envoyer
+         </button>
+       </form>
+     </div>
+
+   </div>
+ </div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-10">
+ <div class="container mx-auto px-6 md:px-12 lg:px-20">
+   <div class="grid md:grid-cols-4 gap-8">
+     
+     <!-- Logo et Slogan -->
+     <div>
+       <h2 class="text-2xl font-bold text-white">Guide Madagascar</h2>
+       <p class="mt-3 text-gray-400">
+         Découvrez Madagascar avec un guide passionné et expérimenté.
+       </p>
+     </div>
+     
+     <!-- Liens rapides -->
+     <div>
+       <h3 class="text-lg font-semibold text-white mb-3">Liens rapides</h3>
+       <ul class="space-y-2">
+         <li><a href="#presentation" class="hover:text-yellow-500 transition">Présentation</a></li>
+         <li><a href="#destinations" class="hover:text-yellow-500 transition">Destinations</a></li>
+         <li><a href="#avis" class="hover:text-yellow-500 transition">Avis Clients</a></li>
+         <li><a href="#contact" class="hover:text-yellow-500 transition">Contact</a></li>
+       </ul>
+     </div>
+     
+     <!-- Contact -->
+     <div>
+       <h3 class="text-lg font-semibold text-white mb-3">Contact</h3>
+       <p>📍 Antananarivo, Madagascar</p>
+       <p>📞 +261 34 12 345 67</p>
+       <p>📧 contact@guide-madagascar.com</p>
+     </div>
+     
+     <!-- Réseaux sociaux -->
+     <div>
+       <h3 class="text-lg font-semibold text-white mb-3">Suivez-moi</h3>
+       <div class="flex space-x-4">
+         <a href="#" class="hover:text-yellow-500 transition"><i class="fab fa-facebook-f"></i></a>
+         <a href="#" class="hover:text-yellow-500 transition"><i class="fab fa-instagram"></i></a>
+         <a href="#" class="hover:text-yellow-500 transition"><i class="fab fa-whatsapp"></i></a>
+       </div>
+     </div>
+
+   </div>
+
+   <!-- Ligne de séparation -->
+   <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500">
+     &copy; 2025 Guide Madagascar. Tous droits réservés.
+   </div>
+ </div>
+</footer>
+
+<!-- FontAwesome pour icônes -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
